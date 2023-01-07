@@ -25,13 +25,13 @@ namespace API_testando_novo.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put()
+        public IActionResult Put(Veiculo veiculo)
         {
             return View();
         }
 
         [HttpDelete]
-        public IActionResult Delete()
+        public IActionResult Delete(int Id)
         {
             return View();
         }
