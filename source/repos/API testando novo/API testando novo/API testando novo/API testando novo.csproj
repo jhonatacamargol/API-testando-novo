@@ -5,4 +5,8 @@
     <RootNamespace>API_testando_novo</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Carro.Dominio\Carro.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
